@@ -21,7 +21,7 @@ Core_Data.mat
       - surface_elevation (mx1 array of surface elevation measurements for each trace (m))
       - bed_index (mx1 array of bed elevation measurements for each trace (m))
       - core_coords_latlon (lat,lon coordinates of the core site)
-      - core_coords_xy (x,y coordinates of the core site in EPSG:3031 (Antarctica)) or EPSG:3413 (Greenland)
+      - core_coords_xy (x,y coordinates of the core site in EPSG:3031 (Antarctica) or EPSG:3413 (Greenland))
       - core_depth (ice core depth (m))
       - core_path_distance (minimum distance between flight transect and core drill site)
       - core_index (index of trace nearest to the core drill site) 
@@ -29,9 +29,7 @@ Core_Data.mat
       - long_profile_index (indices of traces +/- 20 km around the core index. Note that some transects do not extend the full 40 km. 
       - degrees_from_flow (angle between surface velocity vector and inset index flight line vector) 
 
-  - 
-
-- To produce radargrams shown in Figures 3 and 4 run script '.py'. 
+- To produce radargrams...
 
 REFERENCE
 Mutter, E. L. and Holschuh, N. (2024) Advancing interpretation of incoherent scattering in ice penetrating radar data used for ice core site selection. The Cryophere Preprint. doi: 10.5194/egusphere-2024-2450
