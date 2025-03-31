@@ -7,7 +7,7 @@ This code has been run using Python 3.8.10. The code utilizes the depth_shift an
 DESCRIPTION
 Dictonary of radar data and corresponding python scripts to reproduce radargrams from Mutter and Holschuh (2024).
 
-Core_Data.mat
+RadarData_at_CoreSites.mat
   - Dictionary of radar data from 15 historic deep ice core drill sites (Camp Century, GISP2, GRIP, NorthGRIP, DYE-3, NEEM, Vostok, Dome C, Byrd, Siple Dome, WAIS Divide, SPICE, Dome Fuji, EDML, Talos Dome). Each core site has a corresponding dictionary of flights (e.g. Flight_1, Flight_2) and each flight has a corresponding dictionary of radar data and metadata with the following keys:
       - Imdata (nxm array of backscatter power)
       - lat (mx1 array of latitude coordinates for each trace)
